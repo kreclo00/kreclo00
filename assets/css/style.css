@@ -1,0 +1,839 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: mplus-medium, arial;
+    color: #122947;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* подключаем шрифты */
+@font-face {
+    font-family: 'mplus-medium';
+    src: url(../media/fonts/MPLUS1p-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'mplus-regular';
+    src: url(../media/fonts/MPLUS1p-Regular.ttf);
+}
+
+
+/* начало шапки */
+.main-header-fon {
+    background-image: url(../media/img/main/fon.png);
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.btn {
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F0EBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav_menu {
+    display: flex;
+    gap: 41px;
+    margin-left: 100px;
+}
+
+.btn a {
+    color: #122947;
+    text-decoration: none;
+    background-color: rgba(250, 237, 219, 0);
+}
+
+.btn:hover {
+    background-color: #D1CFCF;
+}
+
+.btn:hover a {
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #D1CFCF;
+}
+
+button:focus {
+    background-color: #D1CFCF;
+}
+
+.tel-btn {
+    display: flex;
+    gap: 57px;
+}
+
+
+.tel {
+    margin-top: 10px;
+}
+
+.tel a {
+    font-size: 16px;
+}
+/* конец шапки */
+
+/* начало баннера */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.center-main h1 {
+    font-family: mplus-regular;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.center-main p {
+    font-family: mplus-regular;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.center-main a {
+    text-align: center;
+}
+
+.center-main .btn {
+    margin-left: 25px;
+}
+
+.center-main {
+    margin-top: -90px;
+}
+
+.left-main p {
+    padding-bottom: 80px;
+}
+
+.right-main {
+    padding-bottom: 80px;
+}
+
+.cards .btn {
+    margin-left: 520px;
+    margin-top: 50px;
+}
+/* конец баннера */
+
+/* начало о нас */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-about {
+    padding-left: 59px;
+    padding-bottom: 28px;
+    margin-top: -110px;
+}
+
+.right-about h2 {
+    font-size: 32px;
+    font-family: mplus-regular;
+    padding-bottom: 28px;
+}
+
+.right-about p {
+    font-family: mplus-regular;
+}
+/* конец о нас */
+
+/* начало каталога */
+.catalog-title {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title p {
+    font-size: 36px;
+    font-family: mplus-regular;
+}
+
+button {
+    cursor: pointer;
+    width: 83px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: #F0EBEB;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cardss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card1 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card2 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card3 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card4 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card5 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card6 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card7 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card8 img {
+    width: 267px;
+    height: 267px;
+}
+
+.card1 {
+    width: 272px;
+    height: 328px;
+    background-color: #EBEAE6;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+.card4:hover {
+    transform: scale(1.05);
+}
+
+.card5:hover {
+    transform: scale(1.05);
+}
+
+.card6:hover {
+    transform: scale(1.05);
+}
+
+.card7:hover {
+    transform: scale(1.05);
+}
+
+.card8:hover {
+    transform: scale(1.05);
+}
+
+.card2 {
+    width: 272px;
+    height: 328px;
+    background-color: #F2F2F1;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card3 {
+    width: 272px;
+    height: 328px;
+    background-color: #EBEAE6;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card4 {
+    width: 272px;
+    height: 328px;
+    background-color: #EEEDEF;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card5 {
+    width: 272px;
+    height: 328px;
+    background-color: #F8FAF9;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card6 {
+    width: 272px;
+    height: 328px;
+    background-color: #EBEAE6;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card7 {
+    width: 272px;
+    height: 328px;
+    background-color: #EBEAE6;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card8 {
+    width: 272px;
+    height: 328px;
+    background-color: #F9F9F9;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+span {
+    color: #9A9DA0;
+    font-size: 13px;
+}
+
+.catalog-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+/* конец каталога */
+
+/* начало акции */
+.action .title {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.card9 {
+    margin-left: 10px;
+    width: 280px;
+    height: 381px;
+    background-color: #F1EEE9;
+    position: relative;
+}
+
+.card0 {
+    width: 280px;
+    height: 381px;
+    background-color: #EDEDEE;
+    position: relative;
+}
+
+.card10 {
+    width: 280px;
+    height: 381px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.card11 {
+    width: 280px;
+    height: 381px;
+    background-color: #FBFBFD;
+    position: relative;
+}
+
+.cardss img {
+    width: 280px;
+    height: 314px;
+}
+
+.cardss {
+    padding-bottom: 70px;
+}
+
+.imgaction img {
+    width: 59px;
+    height: 44px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+/* конец акции */
+
+/* начало отзывов */
+.card-revievs {
+    width: 343px;
+    height: 228px;
+    background-color: #F0EBEB;
+    margin-top: 100px;
+    transition: transform 0.3s ease;
+}
+
+.card-revievs:hover {
+    transform: scale(1.05);
+}
+
+.revievs {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    position: relative;
+    width: 1091px;
+    justify-content: space-between;
+}
+
+.card-revievs img {
+    position: relative;
+    top: -30px;
+    left: 120px;
+}
+
+.card-revievs h5 {
+    font-size: 24px;
+    font-family: mplus-regular;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+
+.card-revievs p {
+    text-align: center;
+    font-size: 18px;
+    height: 85px;
+    padding: 10px;
+}
+
+.ctrelka {
+    position: relative;
+    top: -80px;
+    left: 190px;
+}
+
+.ctrelka1 {
+    position: relative;
+    top: -80px;
+    right: 140px;
+}
+/* конец отзывов */
+
+/* начало подписки */
+.sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 84px;
+    margin-top: 100px;
+}
+
+.sub-text h5 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    font-family: mplus-regular;
+}
+
+.sub-text p {
+    font-size: 18px;
+    font-family: mplus-regular;
+    margin-bottom: 30px;
+}
+/* конец подписки */
+
+/* начало преимуществ */
+.advantages {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.advantage {
+    border: 1px solid rgba(0, 0, 0, 0.215);
+    width: 295px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.advantage p {
+    font-size: 18px;
+    padding-left: 32px
+}
+/* конец преимуществ */
+
+/* начало контактов */
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.left-info {
+    width: 687px;
+    height: 555px;
+    background-color: #F4F1ED;
+    padding-top: 117px;
+    padding-left: 107px;
+}
+
+.right-info {
+    position: relative;
+    right: 100PX;
+}
+
+.tit {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.a {
+    font-size: 18px;
+    color: #122947;
+}
+
+.titl p {
+    font-family: mplus-regular;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.titl p {
+    font-family: mplus-regular;
+}
+/* конец контактов */
+
+/* начало футера */
+footer {
+    background-color: #F4F1ED;
+    margin-top: 60px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.footer p {
+    font-family: mplus-regular;
+}
+
+.footer-img {
+    cursor: pointer;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+.footer-wrapper {
+    width: 100%;
+    background-color: #F4F1ED; /* Цвет фона футера */
+    margin-top: 60px;
+}
+/* конец футера */
+
+/* начало продукта */
+.line {
+    width: 370px;
+    height: 1px;
+    background-color: #B3BAC1;
+    margin-bottom: 18px;
+}
+
+.text-container {
+    position: relative;
+    width: 370px;
+}
+
+.text {
+    font-size: 16px;
+    color: #000;
+}
+
+.plus-sign {
+    font-size: 30px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-input {
+    display: none;
+}
+
+.checkbox-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.checkbox-input:checked+.checkbox-custom::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox-label {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-left img {
+    width: 630px;
+    height: 647px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-right h1 {
+    font-family: mplus-regular;
+    margin-bottom: 15px;
+    font-style: 32px;
+}
+
+.name-product p {
+    color: #9A9DA0;
+    font-style: 16px;
+    margin-bottom: 45px;
+    font-family: mplus-regular;
+
+}
+
+.product-description {
+    font-size: 16px;
+    font-family: mplus-regular;
+    margin-bottom: 45px;
+}
+
+.price-product {
+    font-size: 26px;
+    margin-top: 56px;
+}
+
+.price-product {
+    display: flex;
+    gap: 50px;
+}
+
+.btn-product {
+    width: 214px;
+    height: 41px;
+    border: 1px solid #9A9DA0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.btn-product a {
+    font-size: 16px;
+}
+/* Конец продукта */
+
+/* начало входа и регистарции */
+.content {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+
+}
+
+.yes {
+    background-color: #F8F8F6;
+    padding-bottom: 100px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+
+.input-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 354px;
+    height: 56px;
+
+}
+
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+
+.register-link {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #007BFF;
+    display: inline-block;
+}
+
+.register-link {
+    color: #122947;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+input {
+    width: 354px;
+    height: 56px;
+}
+
+.content .btn {
+    width: 357px;
+    height: 56px;
+    margin-bottom: 50px;
+}
+
+.register-linkk {
+    color: #9A9DA0;
+    font-size: 14px;
+    text-align: center;
+    font-family: mplus-regular;
+}
+
+.input-label {
+    color: #9A9DA0;
+}
+
+.login-title {
+    font-size: 40px;
+    font-family: mplus-regular;
+}
+
+.login-titler {
+    font-size: 36px;
+    font-family: mplus-regular;
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+
+input {
+    background-color: #ffffff00;
+}
+/* конец входа и регистарции */
